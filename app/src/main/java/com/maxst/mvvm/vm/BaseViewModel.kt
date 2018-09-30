@@ -1,4 +1,4 @@
-package com.maxst.mvvm
+package com.maxst.mvvm.vm
 
 interface BaseViewModel {
 

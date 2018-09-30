@@ -1,11 +1,11 @@
-package com.maxst.mvvm
+package com.maxst.mvvm.vm
 
 import android.databinding.ObservableField
 import android.view.View
 
-class MainViewModel : BaseViewModel {
+class TextViewModel : BaseViewModel {
 
-	public val helloText = ObservableField<String>()
+	val helloText = ObservableField<String>()
 
 	override fun onCreate() {
 		helloText.set("Hello Jack!")
