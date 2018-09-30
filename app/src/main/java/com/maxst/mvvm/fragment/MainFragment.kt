@@ -30,6 +30,7 @@ class MainFragment : Fragment() {
 		btnTextBinding.setOnClickListener{ clickedOn(TextBindingFragment())}
 		btnButtonBinding.setOnClickListener{ clickedOn(ButtonBindingFragment())}
 		btnInputValidation.setOnClickListener { clickedOn(InputValidBindingFragment())}
+		btnList.setOnClickListener{ clickedOn(ListBindingFragment())}
 	}
 
 	private fun clickedOn(fragment: Fragment) {

@@ -34,10 +34,20 @@
         android:id="@+id/btnInputValidation"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:text="Input binding"
         android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="@+id/btnButtonBinding"
+        app:layout_constraintStart_toStartOf="@+id/btnButtonBinding"
         app:layout_constraintTop_toBottomOf="@+id/btnButtonBinding" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="List binding"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="@+id/btnInputValidation"
+        app:layout_constraintTop_toBottomOf="@+id/btnInputValidation" />
 
 </android.support.constraint.ConstraintLayout>
