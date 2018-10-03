@@ -5,11 +5,8 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.maxst.mvvm.R
-import com.maxst.mvvm.vm.TextViewModel
-import android.R.attr.data
-import android.databinding.DataBindingUtil
 import com.maxst.mvvm.databinding.FragmentTextBindingBinding
+import com.maxst.mvvm.vm.TextViewModel
 
 class TextBindingFragment: Fragment() {
 

@@ -1,11 +1,10 @@
 package com.maxst.mvvm.fragment
 
-import android.support.v4.app.Fragment
-import android.support.annotation.NonNull
 import android.os.Bundle
-import android.view.ViewGroup
+import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import com.maxst.mvvm.R
 import kotlinx.android.synthetic.main.fragment_main.*
 
